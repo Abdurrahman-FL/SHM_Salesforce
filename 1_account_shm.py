@@ -77,7 +77,7 @@ account_url = f'''{instanceurl}/services/data/v56.0/query/?q=SELECT
  FROM
 	Account
  WHERE
-    CreatedDate > %s OR LastModifiedDate > %s ''' % (Max_CreateDate_account, Max_LastModifiedDate_account)
+    CreatedDate > %s OR LastModifiedDate > %s''' % (Max_CreateDate_account, Max_LastModifiedDate_account)
 
 account_done = False
 account_page_no= 1
